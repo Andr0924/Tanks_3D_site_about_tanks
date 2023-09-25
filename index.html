@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href = "https://e7.pngegg.com/pngimages/822/692/png-clipart-soviet-union-hammer-and-sickle-red-star-red-triangle-logo.png">	
+	<title>
+		Введите пароль
+	</title>
+
+	<script>
+		function checkLogin(){
+			var login = document.getElementById("loginBox").value;
+			var loginEnter = login.value;
+			if(login=="Ernest300") {
+			return true;
+			}
+			alert("Доступ запрещён! Неверный логин или пароль. Попробуйте ещё раз.");
+			return false;
+				
+		}
+		function checkPassword(){
+			var password = document.getElementById("passwordBox").value;
+			var passwordEnter = password.value;
+			if(password=="A123Z321") {
+			return true;
+			}
+			alert("Доступ запрещён! Неверный логин или пароль. Попробуйте ещё раз.");
+			return false;
+		}
+		
+		
+	</script>
+</head>
+
+<body style="background-color:Lime; padding: 30px;">
+	<p style="font-size: 30pt;"> ЗДЕСЬ ВЫ МОЖЕТЕ СКАЧАТЬ 3D МОДЕЛИ ТАНКОВ И ПРОЧЕЙ ТЕХНИКИ ВРЕМЁН ВЕЛИКОЙ ОТЕЧЕСТВЕННОЙ ВОЙНЫ </p>
+	<p>  Для входа на сайт введите, пожалуйста логин и пароль. </p>
+	
+	<p> <input id="loginBox" type="text" placeholder="Логин"/><br/> </p>
+
+	<p> <input id="passwordBox" type="password" placeholder="Пароль"/><br/></p>
+	
+
+	 <a href="главная стр.html">
+	<input id="loginBox" type="button"value="OK" onclick="return checkLogin() && checkPassword();"/>
+	</a>
+	
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+	<a href="Сайт для получения пароля.html"> 
+	Нажмите, чтобы получить логин и пароль </a>
+</body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href = "https://e7.pngegg.com/pngimages/822/692/png-clipart-soviet-union-hammer-and-sickle-red-star-red-triangle-logo.png">	
+    <title>
+        Пройдите опрос
+    </title>
+ 
+    <style>
+ 
+  
+/* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: Lime;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+	/* Styling form-control RadioDva
+        button and Checkbox */
+        .form-control input[type="radiodva"],
+        .form-control input[type="checkboxdva"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: red;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+  
+<body>
+  <p> <div class="body">
+<a href="главная стр.html" ><img src="https://static.tildacdn.com/tild6433-3735-4561-b631-303065363761/79b8f110f4d29762344a.png" height=50	
+		width=51 ></a>  
+
+<h1>Заполните форму, сфотографируйте и скиньте мне на эл. почту по адресу: andr01sid@yandex.ru</h1>
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Имя
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Введите ваше имя" />
+        </div>
+  
+        
+  <div class="form-control">
+            <label for="role" id="label-role">
+                Ваш пол
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Мужской</option>
+                <option value="intern">Женский</option>
+            </select>
+        </div>
+
+
+<div class="form-control">
+            <label for="age" id="label-age">
+                Возраст
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Введите ваш возраст" />
+        </div>
+
+
+
+<div class="form-control">
+            <label for="email" id="label-email">
+                Адрес электронной почты
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Введите ваш адрес электронной почты" />
+        </div>
+  
+<!-- Input Type Text -->
+
+        <div class="form-control">
+            <label>
+                Хотели бы вы поделиться этим сайтом с Вашими друзьями?(не оценивается)
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">ДА</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">НЕТ</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">НЕ ЗНАЮ</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>Отметьте все верные утверждения
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">"Королевский тигр"-тежёлый немецкий танк, выпускавшийся с января 1939 года</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">ИС-2 - модификация нанка КВ</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Под Сталинградом в плен попал немецкий генерал Хайнц Гудериан</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Т-34 - самый массовый танк в истории</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">БМ-13 были приняты на вооружение Красной армии 21 июня 1941 года</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Всего было изготовлено более 150 тыс. танков Т-34</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Сталинградский тракторном завод из-за большого объёма выпускаемых танков называли "Танкоград".</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">САУ "Зверобой" получила своё название из-за того, что массово уничтожала фашистских "зверей": танки "тигр", "пантера", "королевский тигр".</input></label>
+        </div>
+
+<div class="form-control">
+            <label for="role" id="label-role">
+                Какой советский самолёт немцы называли "чёрной смертью"?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">ЛАГГ-3</option>
+                <option value="intern">ИЛ-2</option>
+                <option value="professional">
+                    И-16
+                </option>
+                <option value="other">ЯК-1</option>
+            </select>
+        </div>
+
+
+
+
+<div class="form-control">
+            <label>
+                Какие три великих советских полководца дважды получили орден Победы? Введите инициалы и фамилии.
+            </label>
+ 
+            <!-- Input Type RadioDva Button -->
+            <label for="recommed-1">
+                <input type="radiodva"
+                       id="recommed-1"
+                       name="recommed"></input>
+            </label>
+            <label for="recommed-2">
+                <input type="radiodva"
+                       id="recommed-2"
+                       name="recommed"></input>
+            </label>
+		<label for="recommed-3">
+                <input type="radiodva"
+                       id="recommed-3"
+                       name="recommed"></input>
+            </label>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+        <div class="form-control">
+            <label>ЭТОТ ВОПРОС ПОМОЖЕТ НАМ РАЗВИВАТЬ НАШ САЙТ В НУЖНОМ НАПРАВЛЕНИИ. Какой(какие) танки из этого списка вам нравятся больше
+            </label>
+            <!-- Input Type Checkbox -->
+            <img src = "https://cdn.fishki.net/upload/post/201505/12/1530222/2_01.jpg" alt="Поначалу люди не боялись их"
+		height=270	
+		width=385/>
+<label for="inp-1">
+                <input type="checkbox"
+                       name="inp">ИС-2</input></label>
+</p>            
+<img src = "https://w.forfun.com/fetch/6b/6b858d2a1b05cc7bb865ee484a6f79f0.jpeg" alt="Поначалу люди не боялись их"
+		height=270	
+		width=385/>
+<label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Т-34</input></label>
+</p>            
+<img src = "https://i.pinimg.com/originals/32/7b/1f/327b1fe8a649090d9a1441a2f05ab4f4.jpg" alt="Поначалу люди не боялись их"
+		height=270	
+		width=385/>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">КВ-2</input></label>
+</p>            
+<img src = "https://gas-kvas.com/uploads/posts/2023-01/1673501212_gas-kvas-com-p-detskie-risunki-tankov-v-detskom-sadu-9.jpg" alt="Поначалу люди не боялись их"
+		height=270	
+		width=385/>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Другое</input></label>
+            	</div>
+
+
+
+
+
+
+
+<div class="form-control">
+            <label for="role" id="label-role">
+                Какому советскому маршалу принадлежит цитата: „Только тот народ, который чтит своих героев, может считаться великим.“
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Василевскому</option>
+                <option value="intern">Рокоссовскому</option>
+                <option value="professional">
+                    Жукову
+                </option>
+                <option value="other">Коневу</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Мы рады любым отзывам и предложениям
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Напишите ваши комментарии и предложения сюда">
+            </textarea>
+        </div>
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="Сбросить">
+            Сбросить
+        </button>
+    </form>
+</body>
+</html>
